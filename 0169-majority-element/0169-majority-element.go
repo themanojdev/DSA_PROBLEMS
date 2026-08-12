@@ -1,24 +1,16 @@
 func majorityElement(nums []int) int {
-    sort.Ints(nums)
+    
+    count,result := 0,0
 
-    count,result := 1,nums[0]
-
-    if len(nums) == 1 {
-        return result
-    }
-
-    for i:=1;i<len(nums);i++ {
-        if nums[i] == nums[i-1] {
-            count++
-        } else {
-            count = 1
+    for i:=0;i<len(nums);i++ {
+        if count == 0 {
             result = nums[i]
         }
-
-        if count > len(nums)/2 {
-            return result
+        if result == nums[i] {
+            count++
+        } else {
+            count--
         }
     }
-
-    return -1
+    return result
 }
