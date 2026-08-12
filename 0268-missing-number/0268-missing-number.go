@@ -1,10 +1,9 @@
 func missingNumber(nums []int) int {
     
-    sum,n := 0,len(nums)
+    xor := len(nums)
 
     for i:=0;i<len(nums);i++ {
-        sum += nums[i]
+        xor = xor ^ i ^ nums[i]
     }
-
-    return n * (n+1)/2 - sum
+    return xor
 }
