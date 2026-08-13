@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/themanojdev/DSA_PROBLEMS/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/themanojdev/DSA_PROBLEMS/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/themanojdev/DSA_PROBLEMS/tree/master/0088-merge-sorted-array) |
+| [0125-valid-palindrome](https://github.com/themanojdev/DSA_PROBLEMS/tree/master/0125-valid-palindrome) |
 | [0189-rotate-array](https://github.com/themanojdev/DSA_PROBLEMS/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/themanojdev/DSA_PROBLEMS/tree/master/0283-move-zeroes) |
 ## Sorting
@@ -111,5 +112,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/themanojdev/DSA_PROBLEMS/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/themanojdev/DSA_PROBLEMS/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
